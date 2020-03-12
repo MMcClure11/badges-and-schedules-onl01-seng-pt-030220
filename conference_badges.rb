@@ -53,3 +53,8 @@ def assign_rooms(attendees)
   return "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
   end 
 end 
+def assign_rooms(attendees)
+#   attendees.each_with_index.collect do |attendee, index|
+#     "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
+#   end
+# end
