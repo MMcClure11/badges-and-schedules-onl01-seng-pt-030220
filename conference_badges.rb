@@ -45,5 +45,9 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(attendees)
-  badge_maker(attendees)
+  arr_new = []
+  attendees.each do |attendee| 
+    badge_maker(attendee)
+  end 
+  arr_new
 end 
